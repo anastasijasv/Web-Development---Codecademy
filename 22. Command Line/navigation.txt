@@ -47,3 +47,9 @@ $ cd ../..
 $ touch keyboard.txt
 $ ls
 2014  2015  hardware.txt  keyboard.txt
+
+Bash Commands:
+
+echo "Hello Command Line" >> hello_cli.txt - creates a new file and adds text
+
+cat hello_cli.txt - prints the contents of the file
