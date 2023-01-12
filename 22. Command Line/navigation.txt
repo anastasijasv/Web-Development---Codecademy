@@ -1,0 +1,49 @@
+$ - shell prompt
+
+ls - lists current directory's files and folders
+
+pw - prints working directory
+
+cd - changes directory
+
+cd xxx - switches into directory xxx
+
+cd .. - moves up one directory
+
+cd xxx/yyy/aaa - moves across multiple directories
+
+cd ../.. - moves up multiple directories
+
+cd ../bbb - moves to adjacent directory
+
+mkdir xxx - makes a new directory
+
+mkdir xxx/yyy - creates another directory within new directory
+
+touch vvv - creates a new file inside the working directory
+
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ cd 2015
+$ cd feb
+$ pwd
+/home/ccuser/workspace/blog/2015/feb
+$ cd ../jan
+$ pwd
+/home/ccuser/workspace/blog/2015/jan
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/blog
+$ cd 2014/dec
+$ ls
+monitor.txt  mouse.txt
+$ mkdir media
+$ ls
+media  monitor.txt  mouse.txt
+$ mkdir tv
+$ cd ../..
+$ touch keyboard.txt
+$ ls
+2014  2015  hardware.txt  keyboard.txt
