@@ -20,7 +20,9 @@ mkdir xxx - makes a new directory
 
 mkdir xxx/yyy - creates another directory within new directory
 
-touch vvv - creates a new file inside the working directory
+touch vvv.txt - creates a new file inside the working directory
+
+touch yyy/abc.txt - creates a file inside the new directory
 
 $ pwd
 /home/ccuser/workspace/blog
