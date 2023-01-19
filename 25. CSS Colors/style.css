@@ -51,15 +51,15 @@ body {
 
 /* Roast types */
 .green {
-  background-color: darkseagreen;
+  background-color: rgb(143, 188, 143);
 }
 
 .light {
-  background-color: sienna;
+  background-color: rgb(160, 82, 45);
 }
 
 .city {
-  background-color: saddlebrown;
+  background-color: rgb(139, 69, 19);
 }
 
 .vienna {
