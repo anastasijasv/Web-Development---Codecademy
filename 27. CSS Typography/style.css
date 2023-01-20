@@ -14,6 +14,9 @@ h1 {
   color: white;
   font-size: 28px;
   text-align: center;
+  font-family: Georgia;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 h2 {
@@ -30,6 +33,7 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  text-align: justify;
 }
 
 /* Header */
@@ -40,6 +44,7 @@ p {
   padding: 20px 0;
   background-color: #fff;
   font-size: 14px;
+  font-weight: 900;
 }
 
 .header li {
@@ -66,12 +71,16 @@ a.home {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #ffffff;
+  font-weight: lighter;
+  word-spacing: 0.25em;
+  line-height: 1.4;
 }
 
 /* Editorial Sections */
 .editorial {
   padding-bottom: 40px;
   color: #717171;
+  font-family: "Trebuchet MS", "Times New Roman", serif;
 }
 
 /* Font Card Sections */
@@ -84,6 +93,7 @@ a.home {
 .font-card .creator {
   padding: 10px 20px;
   font-size: 16px;
+  font-style: italic;
 }
 
 .sample {
